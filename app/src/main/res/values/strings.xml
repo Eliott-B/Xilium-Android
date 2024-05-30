@@ -2,4 +2,9 @@
     <string name="app_name">Xilium-Android</string>
     <string name="se_connecter">Se connecter</string>
     <string name="ticket">+ Ticket</string>
+    <string name="connection">Connexion</string>
+    <string name="email">E-Mail</string>
+    <string name="password">Mot de passe</string>
+    <string name="mail_ex">arthur.degy@mail.fr</string>
+    <string name="password_ex">az****</string>
 </resources>
