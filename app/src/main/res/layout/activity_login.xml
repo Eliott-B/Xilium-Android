@@ -21,13 +21,13 @@
         app:layout_constraintVertical_bias="0.073">
 
         <Button
-            android:id="@+id/connect"
+            android:id="@+id/accueil"
             android:layout_width="123dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="250dp"
             android:layout_marginTop="30dp"
             android:layout_marginEnd="16dp"
-            android:text="@string/se_connecter"
+            android:text="@string/home"
             android:textSize="12sp"
             app:layout_constraintBottom_toTopOf="@+id/imageView"
             app:layout_constraintEnd_toStartOf="@+id/imageView"
@@ -115,17 +115,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="#E12F2F"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/connect_ok"
-        app:layout_constraintVertical_bias="0.268" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -9,4 +9,5 @@
     <string name="password_ex">az****</string>
     <string name="no_e_p">E-mail et mot de passe obligatoire</string>
     <string name="bad_e_p">E-mail ou mot de passe incorrect</string>
+    <string name="home">Accueil</string>
 </resources>

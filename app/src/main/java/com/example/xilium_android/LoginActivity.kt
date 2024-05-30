@@ -2,16 +2,15 @@ package com.example.xilium_android
 
 import android.content.Intent
 import android.os.Bundle
-import android.text.Editable
-import android.text.TextWatcher
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
-import android.widget.TextView
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+
 
 class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -50,6 +49,13 @@ class LoginActivity : AppCompatActivity() {
         loginButton.setOnClickListener { v ->
             login()
         }
+
+        val homeButton = findViewById<Button>(R.id.accueil)
+
+        homeButton.setOnClickListener { v ->
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     fun login() {
@@ -63,12 +69,20 @@ class LoginActivity : AppCompatActivity() {
         }
         else if (emailEditText.text.toString() == "" ||
                     passwordEditText.text.toString() == "") {
-                val error = findViewById<TextView>(R.id.textView4)
-                error.text = getString(R.string.no_e_p)
-            }
-            else {
-                val error = findViewById<TextView>(R.id.textView4)
-                error.text = getString(R.string.bad_e_p)
-            }
+            val context = applicationContext
+            val text: CharSequence = getString(R.string.no_e_p)
+            val duration = Toast.LENGTH_SHORT
+
+            val toast = Toast.makeText(context, text, duration)
+            toast.show()
+        }
+        else {
+            val context = applicationContext
+            val text: CharSequence = getString(R.string.bad_e_p)
+            val duration = Toast.LENGTH_SHORT
+
+            val toast = Toast.makeText(context, text, duration)
+            toast.show()
+        }
     }
 }
