@@ -7,4 +7,6 @@
     <string name="password">Mot de passe</string>
     <string name="mail_ex">arthur.degy@mail.fr</string>
     <string name="password_ex">az****</string>
+    <string name="no_e_p">E-mail et mot de passe obligatoire</string>
+    <string name="bad_e_p">E-mail ou mot de passe incorrect</string>
 </resources>
