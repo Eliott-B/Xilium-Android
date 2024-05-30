@@ -10,4 +10,17 @@
     <string name="no_e_p">E-mail et mot de passe obligatoire</string>
     <string name="bad_e_p">E-mail ou mot de passe incorrect</string>
     <string name="home">Accueil</string>
+    <string name="tab_tick_title">Mes tickets</string>
+    <string name="tab_tick_head_1">Objet</string>
+    <string name="tab_tick_head_2">Problème</string>
+    <string name="tab_tick_head_3">État</string>
+    <string name="tick11">Ordinateur ne s\'allume plus</string>
+    <string name="tick12">Matériel</string>
+    <string name="tick13">En traitement</string>
+    <string name="tick21">Mon logiciel crash</string>
+    <string name="tick22">Logiciel</string>
+    <string name="tick23">Ouvert</string>
+    <string name="tick31">Ma chaise grince</string>
+    <string name="tick32">Autre</string>
+    <string name="tick33">Fermé</string>
 </resources>
