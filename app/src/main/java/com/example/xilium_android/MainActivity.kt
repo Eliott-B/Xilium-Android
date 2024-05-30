@@ -27,10 +27,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-//        btnTicket.setOnClickListener {
-//            val intent = Intent(this, TicketActivity::class.java)
-//            startActivity(intent)
-//        }
+        btnTicket.setOnClickListener {
+            val intent = Intent(this, TicketActivity::class.java)
+            startActivity(intent)
+        }
 
     }
 

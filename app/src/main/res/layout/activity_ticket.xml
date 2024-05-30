@@ -31,17 +31,13 @@
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/xilium" />
 
-        <TextView
-            android:id="@+id/nom_Prenom"
-            android:layout_width="108dp"
-            android:layout_height="47dp"
-            android:layout_marginStart="250dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginEnd="16dp"
-            android:gravity="center"
-            android:text="@string/nom_prenom"
-            android:textAlignment="center"
-            android:textSize="16sp" />
+        <Button
+            android:id="@+id/accueil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="25dp"
+            android:text="@string/home" />
 
 
     </FrameLayout>

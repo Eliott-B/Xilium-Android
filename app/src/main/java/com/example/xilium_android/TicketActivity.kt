@@ -73,6 +73,13 @@ class TicketActivity : AppCompatActivity() {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
+
+        val btnAccueil = findViewById<Button>(R.id.accueil)
+
+        btnAccueil.setOnClickListener { v ->
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
     }
 
 
