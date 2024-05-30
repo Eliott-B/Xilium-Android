@@ -7,7 +7,6 @@
     <string name="nom_prenom">Nom Prénom</string>
     <string name="new_ticket">Nouveau Ticket</string>
     <string name="objet">Objet</string>
-    <string name="objet_ex">Pas d\'Internet</string>
     <string name="categorie">Catégorie</string>
     <string name="category_ex">Logiciel</string>
     <string name="probleme">Problème</string>
@@ -15,11 +14,7 @@
     <string name="niveau_urgence">Niveau d\'urgence estimé</string>
     <string name="niveau_urgence_ex">moyen</string>
     <string name="description">Description</string>
-    <string name="description_ex">Pas de connexion</string>
     <string name="champ_objet">Entrer l\'objet de votre ticket</string>
-    <string name="champ_categorie">Choisissez la catégorie</string>
-    <string name="champ_probleme">Quel est votre problème ?</string>
-    <string name="champ_niveau_urgence">Indiquer le niveau d\'urgence</string>
     <string name="champ_description">Décrivez votre problème</string>
     <string name="creer_ticket">Créer un ticket</string>
 
@@ -46,4 +41,17 @@
     <string name="tick32">Autre</string>
     <string name="tick33">Fermé</string>
     <string name="name">Paul Richard</string>
+    
+    <string-array name="category">
+        <item>Bug</item>
+        <item>Fonctionnalité</item>
+        <item>Mise-à-jour</item>
+        <item>Autre</item>
+    </string-array>
+    <string-array name="problem">
+        <item>Logiciel</item>
+        <item>Réseau</item>
+        <item>Matériel</item>
+        <item>Autre</item>
+    </string-array>
 </resources>
