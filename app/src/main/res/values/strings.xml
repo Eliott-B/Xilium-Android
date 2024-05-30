@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Xilium-Android</string>
+    <string name="se_connecter">Se connecter</string>
+    <string name="ticket">+ Ticket</string>
 </resources>
