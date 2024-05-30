@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Xilium-Android</string>
-    <string name="disconnect">Se déconnecter</string>
+    <string name="disconnect">Déconnexion</string>
     <string name="se_connecter">Se connecter</string>
     <string name="ticket">+ Ticket</string>
     <string name="connection">Connexion</string>
