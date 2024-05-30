@@ -23,12 +23,13 @@ class MainActivity : AppCompatActivity() {
         val btnTicket = findViewById<Button>(R.id.ticket)
 
         btnConnect.setOnClickListener {
-            val intent = Intent(this, LoginActivity::class)
+            val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
         }
 
         btnTicket.setOnClickListener {
-            val intent = Intent(this, TicketActivity::class)
+            val intent = Intent(this, TicketActivity::class.java)
+            startActivity(intent)
         }
 
     }
