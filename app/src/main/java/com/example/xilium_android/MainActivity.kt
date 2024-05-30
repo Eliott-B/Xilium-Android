@@ -19,10 +19,10 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        val btnConnect = findViewById<Button>(R.id.connect)
+        val btnDisconnect = findViewById<Button>(R.id.disconnect)
         val btnTicket = findViewById<Button>(R.id.ticket)
 
-        btnConnect.setOnClickListener {
+        btnDisconnect.setOnClickListener {
             val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
         }

@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Xilium-Android</string>
+    <string name="disconnect">Se déconnecter</string>
     <string name="se_connecter">Se connecter</string>
     <string name="ticket">+ Ticket</string>
     <string name="connection">Connexion</string>
@@ -23,4 +24,5 @@
     <string name="tick31">Ma chaise grince</string>
     <string name="tick32">Autre</string>
     <string name="tick33">Fermé</string>
+    <string name="name">Paul Richard</string>
 </resources>
